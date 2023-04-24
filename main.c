@@ -4,7 +4,7 @@
 
 /**
  * main - Entry point
- * Owned by YAHYA && JIMANO
+ * OWNED BY YAHYA && JIMANO 
  * Return: Always 0
  */
 int main(void)
@@ -38,7 +38,7 @@ int main(void)
     len2 = printf("Percent:[%%]\n");
     _printf("Len:[%d]\n", len);
     printf("Len:[%d]\n", len2);
-    _printf("Unknown:[%r]\n");
-    printf("Unknown:[%r]\n");
+    _printf("Unknown:[%s]\n", "some string");
+    printf("Unknown:[%s]\n", "some string");
     return (0);
 }
